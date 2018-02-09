@@ -1,0 +1,232 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+    <head>
+     
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+/*.image{
+width: 70%;
+height: 70%;
+float: right !important;
+padding-top: 1em;
+
+}*/
+
+.main_grid{
+height: 9em;
+margin: 0em -51em -4em 0em;
+}
+.image_arrow{
+
+    padding: 4% 0% 0% 0%;
+    color:#c7ceca;
+        margin: -4% -3% 0% 0%;
+}
+.image1{
+	width: 100%;
+height: 70%;
+float: right !important;
+padding-top: 0.1em;
+padding: 1% 1% 0% 0%;
+
+
+	}
+  h4{
+    padding-left: 5%;
+  }
+.image{
+        margin: -18  0% 0% 60%;
+        padding: 2.5em 0em 0em 4em;
+      
+
+  }
+
+    </style>
+
+    
+    <main class="mdl-layout__content">
+    	 <div class="mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>      
+       <h2 class="mdl-cell mdl-cell--6-col" style="text-align: center;">Settings</h2>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+      <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+     <i  class=" material-icons " style="font-size: 241%;">account_box</i> 
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Address Book</h4></label>
+       </div>
+    <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+ 		</div>
+
+   <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+        <div class="mdl-layout-spacer "></div>
+        <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+       <i class=" material-icons " style="font-size: 241%;">help_outline</i>  
+         </div> 
+          <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+       <label><h4>Help & Support</h4></label>
+       </div>
+        <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">link</i>
+         </div> 
+               <div class="mdl-layout-spacer "></div>      
+      </div>
+
+
+     <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+     <i class=" material-icons " style="font-size: 241%; ">mail_outline</i>  
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Send Feedback</h4></label>
+       </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+<!-- 
+   <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid " >
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+    <i  class="material-icons " style="font-size: 241%;">favorite_border</i>   
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Share Bitlet.com Wallet</h4></label>
+       </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+ -->
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid">
+      
+      <div class="mdl-cell  mdl-cell--2-col"></div>     
+       <div class="mdl-cell  mdl-cell--8-col mdl-textfield mdl-js-textfield"  style="background-color: #E8E8E8;     margin-top: 2em;
+    height: 55%;">       
+     <label><h4 style="    margin-top: 0;    margin-left: 3%;
+    padding: 0%;
+">Preferences</h4></label>
+       </div>    
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+     <i class=" material-icons " style="font-size: 241%;">notifications_none</i>  
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Notifications</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">  <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>   
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+    <i class="material-icons" style="font-size: 241%;">chat_bubble_outline</i>
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Languages(English)</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">    <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>    
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+ 
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+    <i class="fa fa-money" style="font-size:200%"></i>
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Currency(USD)</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">   <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>     
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid">
+      <div class="mdl-layout-spacer "></div>      
+       <div class="mdl-cell  mdl-cell--8-col mdl-textfield mdl-js-textfield"  style="background-color: #E8E8E8;     margin-top: 2em;
+    height: 55%;">       
+     <label><h4 style="margin-top: 0; padding: 0%;    margin-left: 3%;
+">Bitcoin Core(BTC)</h4></label>
+       </div>    
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+	
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+   <i class="material-icons" style="font-size:35px;color:#ecb62e;">account_balance_wallet</i>
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Personal Wallet</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+    <i class="fa fa-flash" style="font-size: 250%; width:71%; float:right;"></i>
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>Advanced</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        <i  class="image_arrow material-icons " style="font-size: 241%;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+
+     <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield">
+     <i class=" material-icons " style="font-size: 241%;">info_outline</i>  
+       </div> 
+        <div class="mdl-cell  mdl-cell--6-col mdl-textfield mdl-js-textfield">       
+     <label><h4>About Bitlet</h4></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;margin: 4% 0% 0% 0%;">        
+        <i  class="image_arrow material-icons " style="font-size: 241%; ">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+
+
+
+
+</main>
+
+    {% endblock %}

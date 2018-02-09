@@ -1,0 +1,47 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	
+	<title>
+		Bitlet.com
+	</title>
+</head>
+<body>
+	
+<div class="mdl-layout__container" style="background-image: url('/static/images/bitcoin.jpg'); background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+<!--  <img src="{% static 'image/background.jpg' %}"> -->
+
+<img class="mdl-cell mdl-cell--2-col" src="{% static '/images/bitcoin.png' %}">
+	
+  <div class="mdl-layout-spacer"></div><div class="mdl-layout-spacer"></div><h2 class="content" style="margin: -136px 0px 0px 661px;color: #fff;
+    font-size: 54px;">ITLET</h2> 
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="    width: 250px;
+    height: 45px;
+    margin: 67px 100px 122px 574px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 17px;
+    border-radius: 25px;">
+   Log In with Coinbase
+</button>
+
+
+
+	<!-- <button class="log_in mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect ">
+  Button
+</button> -->
+    
+ 
+</div>
+</body>
+</html>

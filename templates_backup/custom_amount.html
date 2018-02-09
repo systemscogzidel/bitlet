@@ -1,0 +1,71 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+
+   <main class="mdl-layout__content">   
+   <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h2 class="mdl-cell mdl-cell--6-col" style="text-align: center; margin-right: -20px;
+ ">Custom Amount</h2>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"><img style="width: 39px;
+" src="{% static '/images/share-icon.png' %}"/></div>
+      
+    </div>
+
+
+     <div class="mdl-grid ">
+      <div class="mdl-grid ">
+     <div class="mdl-cell mdl-cell--1-col"></div>   
+      <div class="mdl-cell mdl-cell--1-col"></div>    
+      <div class="mdl-cell mdl-cell--8-col" style="text-align: center;"><img style="
+    width: 329px !important;" class="image" src="{% static '/images/qrcode.png' %}"/></div>   
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      </div>
+
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer"></div>
+          <h4 class="mdl-cell mdl-cell--2-col" style="text-align: left;">Address</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--6-col" style="margin-right: -183px !important;"> 
+          <div class="mdl-cell mdl-cell--6-col" style=" height:35px !important; background-color: #F3EFEF !important;padding-top: 10px !important;">
+         
+          <label class="" style="font-size: 21px !important; float: right !important;">jfgf65dgdgdhgkjdfgjkdfgkjdg</label>  
+</div>
+        </div>  
+    </div>
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer"></div>
+          <h4 class="mdl-cell mdl-cell--2-col" style="text-align: left;">Amount</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--6-col" style="margin-right: -183px !important;">
+          <div class="mdl-cell mdl-cell--6-col" style=" height:35px !important; background-color: #F3EFEF !important;padding-top: 10px !important;">         
+          <label class="" style="font-size: 21px !important; float: right !important;">100.00USD to 0.01 btc</label> 
+              </div> 
+        </div>
+
+        </div>  
+    
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer"></div>
+          <h4 class="mdl-cell mdl-cell--2-col" style="text-align: left;">Receive in</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--6-col" style="margin-right: -183px !important;">
+           <div class="mdl-cell mdl-cell--6-col" style=" height:35px !important; background-color: #F3EFEF !important;padding-top: 10px !important;">
+             <div class="mdl-cell mdl-cell--1-col"><img class="" style="background-color: #ecb62e !important; width: 30px !important;margin: -14px -132px -48px 87px !important;float: right !important;" src="{% static '/images/wallet.png' %}"/>
+             </div>     
+          <label class="" style="font-size: 21px !important;margin: -11px -6px 2px 159px !important;">Personal Wallet</label>  
+        
+        </div>
+        </div>  
+      </div>
+    </div>
+    
+    </main>
+
+    {% endblock %}

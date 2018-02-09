@@ -1,0 +1,41 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+
+   <main class="mdl-layout__content">   
+   <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h3 class="mdl-cell mdl-cell--6-col" style="text-align:center;  font-weight:bold; margin-right: 50px;
+ ">Bitcoin Price Chart</h3>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+    <div class="mdl-grid " ">
+   <div class="mdl-cell mdl-cell--12-col">
+    </div>
+    </div> 
+
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+     
+      <div class="mdl-cell mdl-cell--6-col" style="text-align: center;margin: 0em -6em 0em 0em !important"><img style="
+    width: 500px !important; 
+" class="image" src="{% static '/images/bitcoin-chart.jpg' %}"/><br><h4 style=" font-weight:bold;">Latest BTC Price</h4>
+<h4 style=" font-weight:bold; color:#c7cace;">11677.57</h4></div>  
+
+
+
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-layout-spacer "></div>  
+      </div>
+
+     
+
+    
+    </main>
+
+    {% endblock %}
