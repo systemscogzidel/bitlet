@@ -8,4 +8,4 @@ Pillow==3.4.2
 reportlab==3.3.0
 scour==0.35
 six==1.10.0
-uniconvertor==2.0
+uniconvertor==2.0 
