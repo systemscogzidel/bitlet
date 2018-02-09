@@ -26,7 +26,7 @@ SECRET_KEY = 'kf4+1+$6rqt*9&(8zwq9#yaje85y4i12%b7s7yx(hee!)89_x*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [‘0.0.0.0:5000’, ‘localhost’, ‘ bitlet.herokuapp.com’]
+ALLOWED_HOSTS = [‘0.0.0.0:5000’, ‘localhost’, ‘bitlet.herokuapp.com’]
 
 
 # Application definition
