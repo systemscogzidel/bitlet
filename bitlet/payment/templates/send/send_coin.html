@@ -1,0 +1,80 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+      <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+   <main class="mdl-layout__content">   
+   <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h3 class="mdl-cell mdl-cell--6-col" style="text-align:center;  font-weight:bold; margin-right: 50px;
+ ">Send</h3>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+    <div class="mdl-grid " ">
+   <div class="mdl-cell mdl-cell--12-col">
+     <hr style="height: 2%;background-color: #ecb62e;"></hr>
+   </div>
+    </div> 
+
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+     
+      <div class="mdl-cell mdl-cell--6-col" style="text-align: center;margin: 0em -6em 0em 0em !important"><i class="fa fa-send-o" style="font-size:48px;color:#ecb62e;"></i><br><h4 style=" font-weight:bold;">Start Sending Bitcoin</h4></div>   
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-layout-spacer "></div>  
+      </div>
+
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+           <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+
+  <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-cell mdl-cell--4-col"> 
+        <div class="mdl-cell mdl-cell--1-col"></div>
+      <h4 class="mdl-cell mdl-cell--10-col" style="text-align: center;margin: 0em 0em 3em 1em;">To get started, buy bitcoin share your address, you can receive bitcoin from any wallet or service</h4> 
+<div class="mdl-cell mdl-cell--1-col"> </div>
+</div>        
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer"></div>
+       <button class="mdl-button mdl-js-button mdl-button--raised" style="width: 30%;
+    background-color: #696969;font-weight:bold; color:#ffffff;" disabled>
+  Buy Bitcoin
+</button>
+        
+      <div class="mdl-layout-spacer"></div>
+        
+    </div>
+
+    <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer"></div>
+       <button class="mdl-button mdl-js-button mdl-button--raised" style="width: 30%;
+    background-color: #ecb62e;font-weight:bold; color:#000000;" disabled>
+  Show Bitcoin address
+</button>
+        
+      <div class="mdl-layout-spacer"></div>
+        
+    </div>
+
+    
+    </main>
+
+    {% endblock %}

@@ -1,0 +1,78 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+ <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+   <main class="mdl-layout__content">
+   	<div style="background-color: #ecb62b !important; color: #fff !important;">
+      <div class="mdl-cell mdl-cell--12-col mdl-grid " >
+      <div class="mdl-layout-spacer "></div>      
+       <h4 class="mdl-cell mdl-cell--6-col" style="text-align: center;">Personal Wallet</h4>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+     <div class="mdl-cell mdl-cell--12-col mdl-grid " style="background-color: #ecb62b !important;">
+      <div class="mdl-layout-spacer "></div>      
+       <h2 class="mdl-cell mdl-cell--6-col" style="text-align: center;">0.0006755 BTC</h2>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>      
+      <h5 class="mdl-cell mdl-cell--6-col" style="text-align: center;">98.20 USD</h5>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+
+</div>
+ <div class="mdl-cell mdl-cell--12-col mdl-grid " style="background-color: #c7cace !important;">      
+       <h2 class="mdl-cell mdl-cell--2-col" style="text-align: center; padding-top: 1%;    font-size: 200%;
+">Recent</h2>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+     
+       <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+         <div class="mdl-cell mdl-cell--1-col"></div>
+            <div class="mdl-cell mdl-cell--1-col"> <i class="fa fa-arrow-circle-o-down" style="font-size:40px;color:#00cc66;"></i></div>
+       <h5 class="mdl-cell mdl-cell--2-col" style="text-align: center;  padding-top: 1%;
+  padding-right: 1%;">Received</h5>      
+      <div class="mdl-cell mdl-cell--3-col"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;    padding-left: 2.5%;
+padding-top: 1%;">
+        	<label class="" style="font-size: 21px !important;">0.004567 BTC</label><br>  
+        	<label class="" style="color: #c7cace !important;"> 10 minutes Ago</label>    
+
+        </div>  
+    </div>
+
+        <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+          <div class="mdl-cell mdl-cell--1-col"></div>
+          <div class="mdl-cell mdl-cell--1-col"><i class="fa fa-arrow-circle-o-up" style="font-size:40px;color:#aaaaaa;"></i> </div> 
+               <a style="color:unset !important; text-decoration: none !important; padding-top: 1%;" href="/send_funds/">     <h5 class="mdl-cell mdl-cell--10-col" style="margin-left: 64px;">For certified Bitcoin..</h5>   </a>   
+      <div class="mdl-cell mdl-cell--3-col"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;padding-top: 1%;">
+        	  <a style="color:unset !important; text-decoration: none !important;" href="/send_funds/">   <label class="" style="font-size: 21px !important;">-0.006152 BTC</label><br> 
+        	<label class="" style="color: #c7cace !important;">10 minutes Ago</label> </a>   
+
+        </div>  
+    </div>
+
+
+        <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+          <div class="mdl-cell mdl-cell--1-col"></div>
+           <div class="mdl-cell mdl-cell--1-col"> <i class="fa fa-arrow-circle-o-down" style="font-size:40px;color:#00cc66;"></i></div>          
+      <a style="color:unset !important; text-decoration: none !important; padding-left: 4%;
+    padding-top: 1%;" href="/receive_funds/">  
+    <h5 class="mdl-cell mdl-cell--2-col" style="margin-left: 7px;text-align: center;">Received</h5>  </a>    
+      <div class="mdl-cell mdl-cell--4-col"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;    padding-top: 1%;
+">
+        <a style="color:unset !important; text-decoration: none !important;" href="/receive_funds/"> 	<label style="font-size: 21px !important;">0.008736 BTC</label><br> 
+        	<label class="" style="color: #c7cace !important;">10 minutes Ago</label> </a>   
+
+        </div>  
+    </div>
+  
+  
+    </main>
+
+    {% endblock %}

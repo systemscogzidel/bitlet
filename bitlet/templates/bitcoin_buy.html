@@ -1,0 +1,103 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+<head>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+   <main class="mdl-layout__content">   
+   <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h3 class="mdl-cell mdl-cell--6-col" style="text-align:center;  font-weight:bold; margin-right: 50px;
+ ">Buy or Sell Bitcoin</h3>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-cell mdl-cell--1-col"></div>   
+      <div class="mdl-cell mdl-cell--1-col" style="    height: 0px;
+ text-align: center;margin: 0em -6em 0em 0em !important"><img style="
+    width: 66px !important; border: 1px solid;
+" class="image" src="{% static '/images/bit.png' %}"/></div>   
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-layout-spacer "></div>  
+      </div>
+
+
+
+
+  <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div> 
+      <div class="mdl-cell mdl-cell--4-col"> 
+        <div class="mdl-cell mdl-cell--2-col"></div>
+      <h4 class="mdl-cell mdl-cell--10-col" style="text-align: center; font-weight:bold;margin: 4em 0em 3em 1em;">Connect an Exchange</h4> 
+<div class="mdl-cell mdl-cell--1-col"> </div>
+</div>        
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+  <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h4 class="mdl-cell mdl-cell--4-col" style="text-align: center; margin:0em 0em 0em 0em;
+ ">Buy or Sell bitcoin directly from your wallet by connecting your exchange accounts.</h4>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+
+
+
+<div class="mdl-grid "  style="  height: 20px;">
+    
+    </div>
+
+
+<div class="mdl-grid "  style="  height: 1;">   
+
+      <hr class="mdl-cell mdl-cell--12-col"></hr>   
+    
+    </div>
+
+
+    <div class="mdl-grid " style="  height: 46px;    padding-left: 22%;    margin-top: 0%;
+"> 
+
+    <div class="mdl-cell mdl-cell--3-col mdl-textfield mdl-js-textfield" style="    padding: 0% 0% 3% 2%;">
+    <i class="fa fa-bitcoin" style="font-size:50px;color:#ecb62e;"><label style="font-size:40px;color:#000000;">ITLET</label></i>   
+       </div> 
+       <!-- <div class="mdl-cell mdl-cell--1-col" style="margin: 1.5% 6% 0% -6%;
+    font-size: 204%;
+}">ITLET</div>  -->
+        <a style="    color: unset;text-decoration: none !important;" href="/credit_card/">  <div class="mdl-cell  mdl-cell--5-col mdl-textfield mdl-js-textfield" style="margin:inherit;"></a>
+       
+    <a style="    color: unset;text-decoration: none !important;" href="/credit_card/">   <label style="font-size: 150%">Buy Bitcoin with Credit card</label></a>
+ 
+    
+       </div>
+     <a style="    color: unset;text-decoration: none !important;" href="/credit_card/"> <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff ;padding-top: 0.5%" >
+     <i class="material-icons " style="margin: 6% 3% 4% 212%; font-size: 241%; width: 100%; height: 100%; color: #c7ceca;">keyboard_arrow_right</i>
+       </div></a>
+        <div class="mdl-layout-spacer "></div>        
+ </div>
+
+
+<div class="mdl-grid "  style="  height: 1;">   
+
+      <hr class="mdl-cell mdl-cell--12-col"></hr>   
+    
+    </div>
+
+
+    
+    </main>
+
+    {% endblock %}

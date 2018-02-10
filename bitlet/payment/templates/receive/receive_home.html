@@ -1,0 +1,86 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+
+   <main class="mdl-layout__content">   
+   <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>  
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h2 class="mdl-cell mdl-cell--6-col" style="text-align: center; margin-right: -20px;
+ ">Receive</h2>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+
+     <div class="mdl-grid ">
+      <div class="mdl-cell mdl-cell--2-col"></div>    
+      <h5 class="mdl-cell mdl-cell--2-col" style="text-align: center; margin-right: -20px;    margin-left: 8%; ">! Wallet not backed up</h5>      
+      <div class="mdl-cell mdl-cell--2-col"></div>
+    <div class="mdl-layout-spacer "></div>       
+    </div>
+
+
+     <div class="mdl-grid ">
+      <div class="mdl-grid ">
+     <div class="mdl-cell mdl-cell--1-col"></div>   
+      <div class="mdl-cell mdl-cell--1-col"></div>    
+      <div class="mdl-cell mdl-cell--8-col" style="text-align: center;"><img style="
+    width: 329px !important;" class="image" src="{% static '/images/qrcode.png' %}"/></div>   
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      <div class="mdl-cell mdl-cell--1-col"></div>
+      </div>
+
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+      <div class="mdl-layout-spacer"></div>
+      <div style="padding-right: 22%;    width: 20%;">
+      <a style="color:unset; text-decoration: none !important;" href="/amount_enter/">   <h4 ><label>(Address)</label><br>
+   <label>Request Specific amount</label>    </h4> </a>  </div> 
+        
+     <a style="color:unset; text-decoration: none !important;" href="/amount_enter/">   <div class="mdl-layout-spacer"></div> </a>
+        <div class="mdl-cell mdl-cell--6-col" style=" padding-top: 2%; padding-left: 1.5%; margin-right: -183px !important;"> 
+         <a style="color:unset; text-decoration: none !important;    padding-top: 2%;
+" href="/amount_enter/">   <div class="mdl-cell mdl-cell--6-col">         
+          <i  class="image_arrow material-icons " style="font-size: 241%; 
+">keyboard_arrow_right</i>
+</div></a>
+        </div>  
+    </div>
+
+     <div class="mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer"></div>
+        <h5 class="mdl-cell mdl-cell--2-col" style="text-align: left; margin-left: -3%;">Generate new address</h5>
+
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--6-col" style="margin-right: -183px !important;">
+          <div class="mdl-cell mdl-cell--6-col">
+              </div> 
+        </div>
+
+        </div>  
+
+      <hr class="mdl-cell mdl-cell--8-col" style="text-align: center; margin-right: -20px;    margin-left: 14%;"></hr>
+
+    </div>
+
+      <div class="mdl-grid ">
+    <div class="mdl-cell mdl-cell--3-col mdl-textfield mdl-js-textfield">
+    <img class="image" src="{% static '/images/wallet (1).png' %}" style="float: right !important;    margin-top: -25px !important;"/>   
+       </div> 
+        <div class="mdl-cell  mdl-cell--5-col mdl-textfield mdl-js-textfield">
+       
+     <label>Personal Wallet</label>
+     <label>(0.00537 BTC)</label>         
+     
+    
+       </div>
+    <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;">
+   <i  class="image_arrow material-icons " style="font-size: 241%;padding-right: 2%: ">keyboard_arrow_right</i>
+       </div> 
+ </div>
+
+    
+    </main>
+
+    {% endblock %}

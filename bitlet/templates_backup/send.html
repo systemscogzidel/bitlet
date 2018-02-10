@@ -1,0 +1,92 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+ <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style type="text/css">
+    .imagage{
+    	    float: right !important;
+      }
+   
+    </style>
+       <main class="mdl-layout__content">
+      <div class="mdl-cell mdl-cell--12-col mdl-grid ">
+      <div class="mdl-layout-spacer "></div>      
+       <h2 class="mdl-cell mdl-cell--6-col" style="text-align: center;">Send</h2>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>
+            <div class="mdl-cell mdl-cell--1-col "></div>       
+       <h4 class="mdl-cell mdl-cell--7-col" style="font-weight: bold;" >Recipient</h4>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+ 
+
+    <div class="mdl-grid "  style="height: 6em;" >
+    <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield"></div>  
+    <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield"></div>  
+    <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield"></div>   
+       <div class="mdl-cell  mdl-cell--6-col" style=" border: 1px solid !important;
+    
+">
+       <div class="mdl-cell  mdl-cell--1-col" style="float: left;    padding: 0% 3% 0% 3%;">
+       <i class="fa fa-bitcoin" style="font-size:42px; 
+
+color:#ecb62e;"></i>
+</div>
+<div class="mdl-cell  mdl-cell--5-col"  style="float: left;
+    padding: 2% 0% 0% 2%;"> 
+ <input class="mdl-textfield__input" style="border:none;  " type="text" id="sample3" placeholder="Search or Enter the Bitcoin address">     
+<!-- <label class="mdl-textfield__label" for="sample1">Search or Enter the Bitcoin address</label>    -->    
+    
+       </div>
+    <div class="mdl-cell mdl-cell--1-col" style="background-color: #ffffff;float: right;   ">
+<i class="material-icons" style="font-size:46px; margin-left: -158%; ">settings_overscan</i></div>
+     
+   <div class="mdl-layout-spacer"></div>
+
+</div>
+    <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield" style="padding: 0% 11% 0% 0%;">
+ </div> 
+</div>
+
+
+
+
+
+ <div class="mdl-grid " style="height: 0em;   padding-top: 4%;
+">
+      <div class="mdl-layout-spacer "></div>
+            <div class="mdl-cell mdl-cell--2-col "></div>      
+       <h4 class="mdl-cell mdl-cell--8-col" style="font-weight: bold;">Transfer to Wallet</h4>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+ <div class="main_grid mdl-cell mdl-cell--12-col mdl-grid ">
+       <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield"></div>  
+    <div class="mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield" style="    padding-left: 12%;
+"></div> 
+      <div class="image mdl-cell mdl-cell--1-col mdl-textfield mdl-js-textfield" style="    padding: 4% 0% 0% 5%;
+">
+   <i class="material-icons" style="font-size:45px;color:#ecb62e;
+">account_balance_wallet</i>
+       </div> 
+        <div class="mdl-cell  mdl-cell--4-col mdl-textfield mdl-js-textfield">       
+     <label><h4 style="padding-left: 4%;">Personal Wallet</h4></label>
+     <label><h6 style="padding-left: 4%; margin: -3% 0% 0% 0%;
+">0.005482 BTC</h6></label>
+     </div>
+      <div class="mdl-cell mdl-cell--2-col" style="background-color: #ffffff;    padding: 4% 0% 0% 4%;">        <i  class="image_arrow material-icons " style="font-size: 241%;color:#c7cace;">keyboard_arrow_right</i>
+       </div> 
+             <div class="mdl-layout-spacer "></div>      
+    </div>
+
+ 
+
+  </main>
+
+
+
+    {% endblock %}

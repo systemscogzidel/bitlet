@@ -1,0 +1,80 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<title>
+		Bitcoin Home page
+	</title>
+</head>
+<body>
+<style>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+.font-color{
+	color: #fff !important;
+}
+</style>
+
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--waterfall" style="background-color:#ecb62e;">
+    <!-- Top row, always visible -->
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Bitlet</span>
+     <!--  <div class="mdl-layout-spacer"></div> -->
+    <!--   <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div> -->
+    </div>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
+ 
+       <div class="mdl-layout-spacer"></div>
+      <!-- Navigation-->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/home/">BITLET Wallet</a>
+        <a class="mdl-navigation__link" href="/bitcoin_chart/">BITLET Price Chart</a>
+        <a class="mdl-navigation__link" href="/receive/">Personal Wallet</a>
+        <a class="mdl-navigation__link" href="/send/">Send</a>
+        <a class="mdl-navigation__link" href="/received/">Receive</a>
+        <a class="mdl-navigation__link" href="/bitcoin_buy/">Buy or Sell Bitcoin</a>
+        <a class="mdl-navigation__link" href="/credit_card/">Buy with a credit card</a>
+        <a class="mdl-navigation__link" href="/setting_home/">Settings</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer" style="background-color:#ecb62e; color:#fff;">
+    <span class="font-hdcolor mdl-layout-title">Dashboard</span>
+    <nav class="mdl-navigation" style="color:#fff !important;" >
+        <a class="font-color mdl-navigation__link" href="/home/">BITLET Wallet</a>
+        <a class="font-color mdl-navigation__link" href="/bitcoin_chart/">BITLET Price Chart</a>
+        <a class="font-color mdl-navigation__link" href="/receive/">Personal Wallet</a>
+        <a class="font-color mdl-navigation__link" href="/send/">Send</a>
+        <a class="font-color mdl-navigation__link" href="/received/">Receive</a>
+        <a class="font-color mdl-navigation__link" href="/bitcoin_buy/">Buy or Sell Bitcoin</a>
+        <a class="font-color mdl-navigation__link" href="/credit_card/">Buy with a credit card</a>
+        <a class="font-color mdl-navigation__link" href="/setting_home/">Settings</a>
+    </nav>
+  </div>
+ 
+    {% block body_block %}
+    {# Anything outside of this will be inherited if you use extend.#}
+    {% endblock %}
+   
+</div>
+     
+</body>
+</html>

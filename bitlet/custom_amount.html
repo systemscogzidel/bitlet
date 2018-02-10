@@ -1,0 +1,58 @@
+{% extends "header.html" %}
+{% load staticfiles %}
+    {% block body_block%}
+
+   <main class="mdl-layout__content">
+   
+   
+      <div class="mdl-grid ">
+      <div class="mdl-layout-spacer "></div>      
+      <h5 class="mdl-cell mdl-cell--6-col" style="text-align: center;">Custom Amount</h5>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+
+
+</div>
+ <div class="mdl-cell mdl-cell--12-col mdl-grid " style="background-color: #c7cace !important;">      
+       <h2 class="mdl-cell mdl-cell--2-col" style="text-align: center;">Recent</h2>      
+      <div class="mdl-layout-spacer"></div>
+    </div>
+     
+       <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+            <div class="mdl-cell mdl-cell--1-col"> <img    style="width: 50px !important;" class="image" src="{% static '/images/down-arrow.png' %}"/> </div>
+       <h4 class="mdl-cell mdl-cell--2-col" style="text-align: center;">Received</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;">
+        	<label class="" style="font-size: 21px !important;">0.004567 BTC</label><br>  
+        	<label class="" style="color: #c7cace !important;"> 10 minutes Ago</label>    
+
+        </div>  
+    </div>
+
+        <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+          <div class="mdl-cell mdl-cell--1-col"> <img style="width: 50px !important;" class="image" src="{% static '/images/up-arrow.png' %}"/> </div> 
+               <h4 class="mdl-cell mdl-cell--2-col" style="margin-left: 64px;">Sent</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;">
+        	<label class="" style="font-size: 21px !important;">-0.006152 BTC</label><br> 
+        	<label class="" style="color: #c7cace !important;">10 minutes Ago</label>    
+
+        </div>  
+    </div>
+
+
+        <div class="mdl-cell mdl-cell--12-col mdl-grid " style="">
+           <div class="mdl-cell mdl-cell--1-col"> <img style="width: 50px !important;" class="image" src="{% static '/images/down-arrow.png' %}"/> </div>          
+       <h4 class="mdl-cell mdl-cell--2-col" style="margin-left: 7px; text-align: center;">Received</h4>      
+      <div class="mdl-layout-spacer"></div>
+        <div class="mdl-cell mdl-cell--4-col" style="margin-right: -183px !important;">
+        	<label style="font-size: 21px !important;">0.008736 BTC</label><br> 
+        	<label class="" style="color: #c7cace !important;">10 minutes Ago</label>    
+
+        </div>  
+    </div>
+  
+  
+    </main>
+
+    {% endblock %}
